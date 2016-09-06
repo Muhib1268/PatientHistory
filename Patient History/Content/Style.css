@@ -1,0 +1,87 @@
+﻿body, html {
+	font-family: 'Lato', sans-serif;
+	text-rendering: optimizeLegibility !important;
+	-webkit-font-smoothing: antialiased !important;
+	color: #1c424d;
+}
+h1 {
+	font-weight: 700;
+}
+h1 strong {
+	font-weight: 900;
+}
+h2 {
+	font-size: 36px;
+	margin: 0;
+}
+h3 {
+	font-size: 16px;
+	font-weight: 700;
+}
+h5 {
+	text-transform: uppercase;
+	font-weight: 700;
+	line-height: 20px;
+}
+p {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13px;
+}
+a {
+	color: #5b777f;
+	transition: all 0.5s;
+}
+a:hover, a:focus {
+	text-decoration: none;
+	color: #f1c40f;
+}
+.img-centered {
+	margin: 0 auto;
+}
+ul, ol {
+	list-style: none;
+}
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+.clearfix {
+	display: inline-block;
+}
+* html .clearfix {
+	height: 1%;
+}
+.clearfix {
+	display: block;
+}
+#preloader {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: #032e3a;
+	z-index: 99999;
+	height: 100%;
+}
+
+
+/* Home Style */
+header {
+	background: url(../img/Hearbeat.jpg) no-repeat bottom center;
+	background-size: cover;
+	color: #d9e0e2;
+	position: relative;
+	height: 100%;
+}
+header p {
+	color: #d9e0e2;
+	font-size: 20px;
+	margin-bottom: 80px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}

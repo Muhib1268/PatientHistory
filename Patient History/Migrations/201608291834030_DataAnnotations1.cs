@@ -1,0 +1,16 @@
+namespace Patient_History.Migrations
+{
+    using System;
+    using System.Data.Entity.Migrations;
+    
+    public partial class DataAnnotations1 : DbMigration
+    {
+        public override void Up()
+        {
+        }
+        
+        public override void Down()
+        {
+        }
+    }
+}
